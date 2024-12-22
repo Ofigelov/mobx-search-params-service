@@ -6,9 +6,12 @@
   "packageManager": "yarn@4.5.3",
   "devDependencies": {
     "prettier": "3.4.2",
+    "typescript": "5.6.2",
+    "vite": "6.0.5",
     "vitest": "2.1.8"
   },
   "peerDependencies": {
-    "mobx": ">6.0.0"
+    "mobx": ">6.0.0",
+    "remeda": ">2.0.0"
   }
 }
