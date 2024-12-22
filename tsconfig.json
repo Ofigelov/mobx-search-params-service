@@ -24,13 +24,14 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": false,
     "noFallthroughCasesInSwitch": true,
+    "composite": true,
+    "declarationMap": false,
+    "emitDeclarationOnly": true,
+    "incremental": true,
+    "noEmitOnError": true,
     "types": ["vitest/globals"]
   },
   "include": [
-    "./*.js",
     "./*.ts"
-  ],
-  "exclude": [
-    "commander"
   ]
 }
