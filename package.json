@@ -1,6 +1,7 @@
 {
   "name": "@ofigelov/mobx-search-params-service",
   "version": "0.0.1",
+  "private": false,
   "browser": "./src/index.ts",
   "main": "./src/index.ts",
   "packageManager": "yarn@4.5.3",
