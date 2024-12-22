@@ -1,0 +1,14 @@
+{
+  "name": "@ofigelov/mobx-search-params-service",
+  "version": "0.0.1",
+  "browser": "./src/index.ts",
+  "main": "./src/index.ts",
+  "packageManager": "yarn@4.5.3",
+  "devDependencies": {
+    "prettier": "3.4.2",
+    "vitest": "2.1.8"
+  },
+  "peerDependencies": {
+    "mobx": ">6.0.0"
+  }
+}
