@@ -1,9 +1,12 @@
 {
   "name": "@ofigelov/mobx-search-params-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "browser": "./src/index.ts",
   "main": "./src/index.ts",
+  "scripts": {
+    "publish": "yarn npm publish --access public"
+  },
   "packageManager": "yarn@4.5.3",
   "devDependencies": {
     "mobx": "6.9.0",
