@@ -47,8 +47,6 @@ export class SearchParamsService<T extends {}> {
      */
     private readonly nonResetable?: string[],
   ) {
-    this.countable = countable;
-
     this.internal = removeEmptyFieldFormObject(
       buildObjFromUrlSearchParamsAndInitialValue(
         this.searchParams,
