@@ -60,7 +60,6 @@ export class SearchParamsService<T extends {}> {
       reset: action,
       apply: action,
       count: computed,
-      isUrlHasDifferenceWithFilters: computed,
       data: computed,
       internal: observable,
     });

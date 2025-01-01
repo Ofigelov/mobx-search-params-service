@@ -1,6 +1,6 @@
 {
   "name": "@ofigelov/mobx-search-params-service",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "browser": "./src/index.ts",
   "main": "./src/index.ts",
